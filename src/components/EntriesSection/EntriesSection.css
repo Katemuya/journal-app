@@ -1,0 +1,19 @@
+.tabs {
+  display: flex;
+}
+
+.tab {
+  font-weight: 700;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+
+.tab_count {
+  background-color: red;
+  border-radius: 25%;
+  padding: 4px;
+  width: 40px;
+  margin-left: 10px;
+  text-align: center;
+}
