@@ -1,0 +1,14 @@
+.entry-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.date {
+  text-align: center;
+  font-weight: 600;
+}
+
+.title-text {
+  font-weight: 700;
+}
