@@ -1,0 +1,12 @@
+.favorite-button {
+  background-image: url(../../resources/star.svg);
+  width: 24px;
+  height: 24px;
+  align-items: end;
+}
+.filled-favorite-button {
+  background-image: url(../../resources/star-filled.svg);
+  width: 24px;
+  height: 24px;
+  align-items: end;
+}
