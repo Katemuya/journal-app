@@ -1,8 +1,12 @@
+.content {
+  max-width: 80%;
+  margin: 10em auto 6em auto;
+}
+
 form {
-  background-color: aqua;
+  background-color: #ffffff;
   position: relative;
   color: #252629;
-  margin-top: 10em;
   display: block;
 }
 h3 {
@@ -15,20 +19,18 @@ label {
 }
 
 input {
-  background-color: #ffffff;
   height: 5em;
   width: 90%;
   border-radius: 4px;
-  border: 2px #e4e8f0;
+  border: 1px solid lightgray;
   margin-left: 4%;
 }
 
 textarea {
-  background-color: #ffffff;
   width: 90%;
   resize: none;
   height: 8em;
-  border: 2px #e4e8f0;
+  border: 1px solid lightgray;
   border-radius: 4px;
   margin-left: 4%;
 }
