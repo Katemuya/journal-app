@@ -4,20 +4,23 @@ form {
   color: #252629;
   margin-top: 10em;
   display: block;
-  content: ;
 }
 h3 {
   text-align: center;
 }
 label {
   display: block;
+  margin-left: 4%;
+  padding: 3px;
 }
+
 input {
   background-color: #ffffff;
   height: 5em;
   width: 90%;
   border-radius: 4px;
   border: 2px #e4e8f0;
+  margin-left: 4%;
 }
 
 textarea {
@@ -25,10 +28,9 @@ textarea {
   width: 90%;
   resize: none;
   height: 8em;
-  padding: 12px 20px;
   border: 2px #e4e8f0;
   border-radius: 4px;
-  box-sizing: border-box;
+  margin-left: 4%;
 }
 
 button {
