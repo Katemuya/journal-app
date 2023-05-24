@@ -1,18 +1,16 @@
-import { useState } from "react";
 import "./FavoriteButton.css";
 
-export default function FavoriteButton() {
-  const [isFavorite, setIsFavorite] = useState(false);
-
+export default function FavoriteButton({ onToggleFavorite, isFavorite, id }) {
   function clickHandler() {
-    setIsFavorite(!isFavorite);
+    console.log("click Handler");
+    onToggleFavorite(id);
   }
 
   return (
-    <span
+    <div
       className={`
         ${isFavorite ? "filled-favorite-button" : "favorite-button"}`}
       onClick={clickHandler}
-    ></span>
+    ></div>
   );
 }
