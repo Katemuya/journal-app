@@ -3,30 +3,34 @@
   margin: 10em auto 6em auto;
 }
 
-form {
+.form {
   background-color: #ffffff;
   position: relative;
   color: #252629;
   display: block;
 }
-h3 {
+.entry.header {
   text-align: center;
 }
-label {
+.motto-label {
   display: block;
   margin-left: 4%;
   padding: 3px;
 }
 
-input {
+.motto-input {
   height: 5em;
   width: 90%;
   border-radius: 4px;
   border: 1px solid lightgray;
   margin-left: 4%;
 }
-
-textarea {
+.notes-label {
+  display: block;
+  margin-left: 4%;
+  padding: 3px;
+}
+.notes-input {
   width: 90%;
   resize: none;
   height: 8em;
@@ -35,7 +39,7 @@ textarea {
   margin-left: 4%;
 }
 
-button {
+.create-button {
   padding: 10px;
   border: 4px #e4e8f0;
   background-color: #ff4a11;

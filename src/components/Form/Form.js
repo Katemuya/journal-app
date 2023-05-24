@@ -13,13 +13,23 @@ export default function Form({ onAddEntry }) {
   return (
     <>
       <div>
-        <form id="form" onSubmit={handleSubmit}>
-          <h3>NEW ENTRY</h3>
-          <label for="motto"> Motto</label>
-          <input type="text" id="motto" name="motto"></input>
-          <label for="notes">Notes </label>
-          <textarea id="notes" name="notes"></textarea>
-          <button type="submit" value="submit">
+        <form className="form" id="form" onSubmit={handleSubmit}>
+          <h3 className="entry-header"> NEW ENTRY</h3>
+          <label className="motto-label" for="motto">
+            {" "}
+            Motto
+          </label>
+          <input
+            className="motto-input"
+            type="text"
+            id="motto"
+            name="motto"
+          ></input>
+          <label class-Name="notes-label" for="notes">
+            Notes{" "}
+          </label>
+          <textarea className="notes-input" id="notes" name="notes"></textarea>
+          <button className="create-button" type="submit" value="submit">
             Create
           </button>
         </form>
