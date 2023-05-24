@@ -25,7 +25,7 @@ export default function Form({ onAddEntry }) {
             id="motto"
             name="motto"
           ></input>
-          <label class-Name="notes-label" for="notes">
+          <label className="notes-label" for="notes">
             Notes{" "}
           </label>
           <textarea className="notes-input" id="notes" name="notes"></textarea>
